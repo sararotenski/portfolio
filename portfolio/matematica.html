@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Matemática</title>
+    <link rel="stylesheet" href="matematica.css">
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <div class="options">
+                <span class="navigation" onclick="home()">Home</span>
+                <div class="ensino-medio-container">
+            <span class="navigation" id="ensino-medio">Ensino Médio</span>
+            <div class="ensino-medio-modal">
+                <p class="materias" onclick="matematica()">Matemática</p>
+                <p class="materias" onclick="humanas()">Humanas</p>
+                <p class="materias" onclick="linguagens()">Linguagens</p>
+                <p class="materias" onclick="natureza()">Natureza</p>
+            </div>
+                </div>
+                <div class="tecnico-container">
+            <span class="navigation" id="tecnico">Técnico</span>
+            <div class="tecnico-modal">
+                <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+                <p class="materias" onclick="IoT()">Internet das Coisas</p>
+            </div>
+                </div>
+            <span class="navigation" onclick="extras()">Extras</span>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-matematica-container">
+            <p class="title-matematica">Atividades de Matemática</p>
+        </div>
+        <div class="trimestres-container">
+                <p class="trimestre-title" onclick="primeiroTrimestreMatematica()">1º Trimestre</p>
+            <p class="trimestre-title">2º Trimestre</p>
+            <p class="trimestre-title">3º Trimestre</p>
+        </div>
+        <div id="modal-primeiro-trimestre">
+            <div class="quebrando-a-banca">
+                <div class="texts">
+            <p class="atividade-matematica">Quebrando a Banca</p>
+            <p class="quebrando-a-banca-text">Com o objetivo de aprender sobre probabilidade de uma maneira mais dinâmica, nós assistimos ao filme Quebrando a Banca e fizemos uma atividade sobre ele posteriomente. A atividade consistia em quatro perguntas sobre o filme e na criação de um roteiro de um filme que utilizasse matemática. Eu escrevi o roteiro de um romance de ficção científica onde as vidas das pessoas podem ser previstas por gráficos. Achei o trabalho muito divertido de fazer e ajudou na minha compreensão do assunto, além de trabalhar minha criatividade. Para visualizar a atividade, basta clicar na imagem ao lado!<br>Competências e habilidades: C5 - H31 e H32.</p>
+               </div>
+               <div class="quebrando-a-banca-img-container">
+            <a href="https://docs.google.com/document/d/1Yd17LFOKE1bbNNKEPlObGiPwnhZsjTBXbGmlnC7D2j0/edit?usp=sharing"><img class="quebrando-a-banca-img" src="./imagens-atividades/quebrando-a-banca-print.png" alt="quebrando a banca"></a>
+        </div>
+        </div>
+        <div class="criando-a-banca">
+            <div class="texts">
+        <p class="atividade-matematica">Criando a Banca</p>
+        <p class="criando-a-banca-text">Tendo como inspiração o filme Quebrando a Banca, eu e meu grupo deveríamos desenvolver um jogo original que utilizasse conceitos de análise combinatória e teoria das probabilidades. Pensando nisso, nós desenvolvemos o jogo Combinatorium, inspirado no jogo Telma, no qual os jogadores recebem e jogam suas cartas e, quando as cartas dos jogadores coincidem, eles precisam gritar o apelido do outro jogador (que foi definido antes das cartas começarem a ser jogadas). As cartas possuem perguntas de probabilidade e análise combinatória. Foi um trabalho muito divertido de desenvolver. Para visualizar a atividade, basta clicar na imagem ao lado! Esse documento explica o funcionamento do jogo e também possui links que levam às regras e às cartas.<br>Competências e habilidades: C5 - H30 e H31.</p>
+           </div>
+           <div class="criando-a-banca-img-container">
+        <a href="https://docs.google.com/document/d/1YUB2AN48PVNGpfGJLpggNJm8NoZdCH1LPaJ-8gF1yDk/edit?usp=sharing"><img class="criando-a-banca-img" src="./imagens-atividades/jogo-combinatorium-print.png" alt="criando a banca"></a>
+    </div>
+    </div>
+</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
