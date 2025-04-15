@@ -1,0 +1,255 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(./images/img-fundo-cidade-tres.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #050e26;
+}
+
+.header-navigation {
+    width: 100%;
+    margin-left: 0;
+    height: 50px;
+    padding-top: 30px;
+    color: white;
+    position: fixed;
+    background-color: #050e26;
+    top: 0;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.475);
+}
+
+.options {
+    margin-left: 250px;
+}
+
+.navigation {
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.navigation:hover {
+    color: #4f6ab8;
+}
+
+.ensino-medio-modal {
+    color: #ffffff;
+    background-color: #050e26;
+    margin-left: 120px;
+    margin-right: 850px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 2000px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+.ensino-medio-container {
+    position: relative;
+    display: inline-block;
+}
+
+.ensino-medio-container:hover .ensino-medio-modal {
+    display: block;
+}
+
+.tecnico-modal {
+    color: #ffffff;
+    background-color: #050e26;
+    margin-left: 50px;
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 2000px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+.tecnico-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tecnico-container:hover .tecnico-modal {
+    display: block;
+}
+
+.materias {
+    cursor: pointer;
+}
+
+.materias:hover {
+    background-color: #ffffff;
+    color: #050e26;
+}
+
+.text-portfolio {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 80px;
+}
+
+.name {
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    margin-top: 250px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+}
+
+.foto-sara {
+    width: 300px;
+    margin-left: 200px;
+}
+
+.title {
+    width: 400px;
+}
+
+.about-me-button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.about-me-button:hover {
+    background-color: #ffffff7d;
+    transition: 0.5s;
+}
+
+.about-me-container {
+    width: 100%;
+    margin-top: 150px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.about-me-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 150px;
+}
+
+.about-me-text {
+    color: #ffffff;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+.curriculum-container {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.curriculum-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.curriculum-img {
+    width: 400px;
+    transition: transform 0.3s ease-out;
+}
+
+.curriculum-img:hover {
+    transform: scale(1.05);
+}
+
+.outros-portfolios-container {
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.outros-portfolios-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.portfolio-2024-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.portfolio-2023-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio-2024-link {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 1000px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.portfolio-2024-link:hover {
+    background-color: #ffffff7d;
+    transition: 0.5s;
+}
+
+.portfolio-2023-link {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 1000px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.portfolio-2023-link:hover {
+    background-color: #ffffff7d;
+    transition: 0.5s;
+}

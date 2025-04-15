@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Natureza</title>
+    <link rel="stylesheet" href="natureza.css">
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <div class="options">
+                <span class="navigation" onclick="home()">Home</span>
+                <div class="ensino-medio-container">
+            <span class="navigation" id="ensino-medio">Ensino Médio</span>
+            <div class="ensino-medio-modal">
+                <p class="materias" onclick="matematica()">Matemática</p>
+                <p class="materias" onclick="humanas()">Humanas</p>
+                <p class="materias" onclick="linguagens()">Linguagens</p>
+                <p class="materias" onclick="natureza()">Natureza</p>
+            </div>
+                </div>
+                <div class="tecnico-container">
+            <span class="navigation" id="tecnico">Técnico</span>
+            <div class="tecnico-modal">
+                <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+                <p class="materias" onclick="IoT()">Internet das Coisas</p>
+            </div>
+                </div>
+            <span class="navigation" onclick="ppe()">PPE</span>
+            <span class="navigation" onclick="extras()">Extras</span>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-natureza-container">
+            <p class="title-natureza">Atividades de Natureza</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
