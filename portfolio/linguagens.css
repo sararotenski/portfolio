@@ -1,0 +1,447 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(./images/img-fundo-cidade-tres.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #050e26;
+}
+
+/* estilo do menu de navegação */
+.header-navigation {
+    width: 100%;
+    margin-left: 0;
+    height: 50px;
+    padding-top: 30px;
+    color: white;
+    position: fixed;
+    background-color: #050e26;
+    top: 0;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.475);
+    text-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navigation {
+    cursor: pointer;
+    text-align: center;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.navigation:hover {
+    color: #4f6ab8;
+}
+
+/* modal das áreas do ensino médio */
+.ensino-medio-modal {
+    color: #ffffff;
+    background-color: #050e26;
+    margin-left: 66px;
+    margin-right: 850px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 2000px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+.ensino-medio-container {
+    position: relative;
+    display: inline-block;
+}
+
+.ensino-medio-container:hover .ensino-medio-modal {
+    display: block;
+}
+
+/* modal das áreas do técnico */
+.tecnico-modal {
+    color: #ffffff;
+    background-color: #050e26;
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 2000px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+.tecnico-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tecnico-container:hover .tecnico-modal {
+    display: block;
+}
+
+/* estilo dos botões das matérias */
+.materias {
+    cursor: pointer;
+}
+
+.materias:hover {
+    background-color: #ffffff;
+    color: #050e26;
+}
+
+/* conteúdo principal da página */
+.title-linguagens-container {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.title-linguagens {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* estilo dos botões dos trimestres */
+.trimestres-container {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.trimestre-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.trimestre-title:hover {
+    background-color: #ffffff7d;
+    transition: 0.5s;
+}
+
+/* fundo do modal das atividades */
+#modal-primeiro-linguagens {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* conteúdo do modal do primeiro trimestre */
+.modal-primeiro-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 350px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.atividade-linguagens {
+    font-size: 15px;
+    text-align: center;
+}
+
+.nota-redacao {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nota-redacao-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.nota-redacao-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.nota-redacao-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.nota-redacao-img:hover {
+    transform: scale(1.05);
+}
+
+#modal-redacao-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000071;
+}
+
+.modal-redacao-conteudo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.nota-redacao-img-maior {
+    width: 900px;
+    border-radius: 10px;
+}
+
+.revista-literaria {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.revista-literaria-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.revista-literaria-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.revista-literaria-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.revista-literaria-img:hover {
+    transform: scale(1.05);
+}
+
+.padlet-obras {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.padlet-obras-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.padlet-obras-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.padlet-obras-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.padlet-obras-img:hover {
+    transform: scale(1.05);
+}
+
+#modal-obras-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000071;
+}
+
+.modal-obras-conteudo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.padlet-obras-img-maior {
+    width: 900px;
+    border-radius: 10px;
+}
+
+.pai-contra-mae {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pai-contra-mae-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.pai-contra-mae-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.pai-contra-mae-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.pai-contra-mae-img:hover {
+    transform: scale(1.05);
+}
+
+.biografia {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.biografia-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.biografia-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.biografia-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.biografia-img:hover {
+    transform: scale(1.05);
+}
+
+.informa-enem {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.informa-enem-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.informa-enem-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.informa-enem-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.informa-enem-img:hover {
+    transform: scale(1.05);
+}

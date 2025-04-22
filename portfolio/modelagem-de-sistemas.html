@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelagem de Sistemas</title>
+    <link rel="stylesheet" href="modelagem-de-sistemas.css">
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <div class="options">
+                <span class="navigation" onclick="home()">Home</span>
+                <div class="ensino-medio-container">
+            <span class="navigation" id="ensino-medio">Ensino Médio</span>
+            <div class="ensino-medio-modal">
+                <p class="materias" onclick="matematica()">Matemática</p>
+                <p class="materias" onclick="humanas()">Humanas</p>
+                <p class="materias" onclick="linguagens()">Linguagens</p>
+                <p class="materias" onclick="natureza()">Natureza</p>
+            </div>
+                </div>
+                <div class="tecnico-container">
+            <span class="navigation" id="tecnico">Técnico</span>
+            <div class="tecnico-modal">
+                <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+                <p class="materias" onclick="IoT()">Internet das Coisas</p>
+            </div>
+                </div>
+            <span class="navigation" onclick="extras()">Extras</span>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-modelagem-container">
+            <p class="title-modelagem">Atividades de Modelagem de Sistemas</p>
+        </div>
+        <div class="trimestres-container">
+            <p class="trimestre-title" onclick="primeiroTrimestreModelagem()">1º Trimestre</p>
+        <p class="trimestre-title">2º Trimestre</p>
+        <p class="trimestre-title">3º Trimestre</p>
+    </div>
+    <div id="modal-primeiro-modelagem">
+        <div class="modal-primeiro-trimestre">
+            <div class="requisitos-hamburgueria">
+                <div class="texts">
+            <p class="atividade-modelagem">Requisitos e Regras de Negócio da Hamburgueria</p>
+            <p class="requisitos-hamburgueria-text">O primeiro conteúdo que aprendemos na matéria de Modelagem de Sistemas foi o de requisitos funcionais, não funcionais e regras de negócio. Para fixar esse aprendizado, recebi como tarefa a criação de um nome e uma logo para uma hamburgueria e a construção de uma planilha contendo seus requisitos e regras de negócio. Essa atividade foi muito eficiente para melhorar minha compreensão desse assunto e me ajudou a entender com precisão a função de cada um, impedindo que eu os confundisse. Para acessar a planilha, basta clicar na imagem ao lado!<br>Habilidades: H4, H7 e H8.</p>
+               </div>
+               <div class="requisitos-hamburgueria-img-container">
+            <a href="https://docs.google.com/spreadsheets/d/1X7dwnpk9OP255PmPi4Y3zTOWNZn640nm2c8QdHWdFzI/edit?usp=sharing"><img class="requisitos-hamburgueria-img" src="./imagens-atividades/documentacao-hamburgueria-print.png" alt="requisitos hamburgueria"></a>
+        </div>
+        </div>
+        <div class="apresentacao-SA">
+            <div class="texts">
+        <p class="atividade-modelagem">Primeira Apresentação da S.A.</p>
+        <p class="apresentacao-SA-text">A Situação de Aprendizagem é um trabalho construído ao longo do ano todo e é composta pelos aprendizados de todas as unidades curriculares do curso técnico. A primeira apresentação da SA foi composta pelo brainstorm, características da marca, identidade visual, paleta de cores, requisitos funcionais, não funcionais e regras de negócio e pelo wireframe de baixa-fidelidade. Para acessar a apresentação, basta clicar na imagem ao lado!<br>Habilidades: H1, H2, H3, H4, H6 e H7.</p>
+           </div>
+           <div class="apresentacao-SA-img-container">
+        <a href="https://www.canva.com/design/DAGiEgJ8a64/RKHB-Ernq_7kZlJEiHSFIQ/edit?utm_content=DAGiEgJ8a64&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="apresentacao-SA-img" src="./imagens-atividades/apresentacao-SA-print.png" alt="primeira apresentação SA"></a>
+           </div>
+        </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
