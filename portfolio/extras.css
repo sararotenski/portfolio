@@ -123,6 +123,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 100px;
 }
 
 .atividade-extra {
@@ -130,6 +131,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+/* estilo do card da imersão alura */
 .imersao-alura {
     color: #ffffff;
     margin-bottom: 50px;
@@ -168,6 +170,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(1.05);
 }
 
+/* modal da foto do certificado da alura */
 #modal-certificado-alura {
     display: none;
     position: fixed;
@@ -187,6 +190,69 @@ body::-webkit-scrollbar-thumb {
 }
 
 .certificado-alura-img-maior {
+    width: 900px;
+    border-radius: 10px;
+}
+
+/* estilo dos cards da iniciação científica */
+.iniciacao-cientifica {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.iniciacao-cientifica-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+}
+
+.iniciacao-cientifica-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.iniciacao-cientifica-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.iniciacao-cientifica-img:hover {
+    transform: scale(1.05);
+}
+
+/* modal da foto da iniciação científica */
+#modal-iniciacao-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000071;
+}
+
+.modal-iniciacao-conteudo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.iniciacao-cientifica-img-maior {
     width: 900px;
     border-radius: 10px;
 }

@@ -193,3 +193,19 @@ window.addEventListener("click", function(event) {
         fecharModalAlura();
     }
 });
+
+const modalIniciacao = document.getElementById("modal-iniciacao-background");
+
+function abrirModaliniciacao() {
+    modalIniciacao.style.display = "flex";
+}
+
+function fecharModaliniciacao() {
+    modalIniciacao.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalIniciacao) {
+        fecharModaliniciacao();
+    }
+});
