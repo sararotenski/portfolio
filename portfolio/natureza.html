@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Natureza</title>
+    <link rel="stylesheet" href="natureza.css">
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <div class="options">
+                <span class="navigation" onclick="home()">Home</span>
+                <div class="ensino-medio-container">
+            <span class="navigation" id="ensino-medio">Ensino Médio</span>
+            <div class="ensino-medio-modal">
+                <p class="materias" onclick="matematica()">Matemática</p>
+                <p class="materias" onclick="humanas()">Humanas</p>
+                <p class="materias" onclick="linguagens()">Linguagens</p>
+                <p class="materias" onclick="natureza()">Natureza</p>
+            </div>
+                </div>
+                <div class="tecnico-container">
+            <span class="navigation" id="tecnico">Técnico</span>
+            <div class="tecnico-modal">
+                <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+                <p class="materias" onclick="IoT()">Internet das Coisas</p>
+            </div>
+                </div>
+            <span class="navigation" onclick="extras()">Extras</span>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-natureza-container">
+            <p class="title-natureza">Atividades de Natureza</p>
+        </div>
+        <div class="trimestres-container">
+            <p class="trimestre-title" onclick="primeiroTrimestreNatureza()">1º Trimestre</p>
+        <p class="trimestre-title">2º Trimestre</p>
+        <p class="trimestre-title">3º Trimestre</p>
+    </div>
+    <div id="modal-primeiro-natureza">
+        <div class="modal-primeiro-trimestre">
+            <div class="poluicao">
+                <div class="texts">
+            <p class="atividade-natureza">Poluição da Água</p>
+            <p class="poluicao-text">Na primeira aula de natureza que tivemos esse ano, estudamos sobre os diferentes tipos de poluição (do ar, da água e do solo) e, em grupos, escolhemos um tipo de poluição para desenvolver uma pesquisa e apresentação. Nós escolhemos a pesquisar sobre a poluição da água e foi um trabalho muito interessante de realizar, aprendi muitas coisas novas. Para acessar a apresentação, basta clicar na imagem ao lado!<br>Competências e habilidades: C1 - H1, H2 e H4.</p>
+               </div>
+               <div class="poluicao-img-container">
+            <a href="https://www.canva.com/design/DAGe5uM3N70/7H-mrm4mj_ECnHvYFPHQog/edit?utm_content=DAGe5uM3N70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="poluicao-img" src="./imagens-atividades/poluicao-print.png" alt="poluição da água"></a>
+        </div>
+        </div>
+        <div class="mapa-eletrostatica">
+            <div class="texts">
+        <p class="atividade-natureza">Mapa Mental Sobre Eletrostática</p>
+        <p class="mapa-eletrostatica-text">Para fixar os conteúdos relacionados à eletrostática, recebemos a missão de desenvolver um mapa mental com os principais conceitos desse tema. Abordei os conceitos de carga elétrica, conservação das cargas, força elétrica, campo elétrico, potencial elétrico e corrente elétrica. Gosto muito de fazer resumos manuais e com certeza me ajudou a compreender esses conceitos, além de ser um ótimo material de revisão para uma futura prova. Para visualizar o mapa mental em tamanho aumentado, basta clicar na imagem dele ao lado!<br>Habilidades: H29, H30 e H31.</p>
+           </div>
+           <div class = "mapa-eletrostatica-img-container">
+        <img onclick = "abrirModalEletrostatica()" class="mapa-eletrostatica-img" src="./imagens-atividades/mapa-mental-eletrostatica.jpg" alt="mapa mental eletrostática">
+           </div>
+           <div id="modal-eletrostatica-background">
+            <div class="modal-eletrostatica-conteudo">
+            <img src="./imagens-atividades/mapa-mental-eletrostatica.jpg" alt="mapa mental eletrostática" class="mapa-eletrostatica-img-maior">
+        </div>
+        </div>
+        </div>
+        <div class="estequiometria">
+            <div class="texts">
+        <p class="atividade-natureza">Estequiometria na Indústria Brasileira</p>
+        <p class="estequiometria-text">Seguindo os estudos sobre estequiometria e suas aplicações na indústria brasileira, nós nos dividimos em grupos e recebemos uma equação química para pesquisar, estudar e montar uma apresentação sobre. Eu e meu grupo pegamos a reação da eletrólise do cloreto de sódio. Foi um trabalho muito legal de desenvolver e nos permitiu aprender muitas coisas novas. Para acessar a apresentação, basta clicar na imagem ao lado!<br>Competências e habilidades: C2 - H7, H9 e H10.</p>
+           </div>
+           <div class="estequiometria-img-container">
+        <a href="https://www.canva.com/design/DAGh_KKWcBY/qGHK9lUeBUAz660-HF6FEA/edit?utm_content=DAGh_KKWcBY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="estequiometria-img" src="./imagens-atividades/estequiometria-print.png" alt="estequiometria"></a>
+    </div>
+    </div>
+    <div class="biomoleculas">
+        <div class="texts">
+    <p class="biomoleculas-natureza">Tabela de Doenças Relacionadas a Proteínas</p>
+    <p class="biomoleculas-text">Para aprofundar o conhecimento sobre biomoléculas e após termos aulas sobre proteínas, vitaminas e ácidos nucleicos, tive de preencher uma tabela com diversas informações sobre doenças que possuem relações com proteínas (com a sua falta, deficiência ou ausência). Para cada doença indicada, pesquisei a proteína envolvida, a função da proteína, os efeitos da sua deficiência no organismo e as formas de tratamento possíveis. Foi uma atividade bem legal de realizar e me permitiu ir além nesse assunto. Para visualizar a tabela, basta clicar na imagem ao lado!<br>Competências e habilidades: C4 - H23 e C5 - H24, H25 e H28.</p>
+       </div>
+       <div class = "biomoleculas-img-container">
+        <a href="https://docs.google.com/document/d/16YN-Wx3uqG2E5V9-YLWsWR2M6ldzlxGUSxaqnlw-Ka8/edit?usp=sharing"><img class="biomoleculas-img" src="./imagens-atividades/biomoleculas-print.png" alt="tabela biomoleculas"></a>
+       </div>
+    </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

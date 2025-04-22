@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanas Portfólio</title>
+    <link rel="stylesheet" href="humanas.css">
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <div class="options">
+                <span class="navigation" onclick="home()">Home</span>
+                <div class="ensino-medio-container">
+            <span class="navigation" id="ensino-medio">Ensino Médio</span>
+            <div class="ensino-medio-modal">
+                <p class="materias" onclick="matematica()">Matemática</p>
+                <p class="materias" onclick="humanas()">Humanas</p>
+                <p class="materias" onclick="linguagens()">Linguagens</p>
+                <p class="materias" onclick="natureza()">Natureza</p>
+            </div>
+                </div>
+                <div class="tecnico-container">
+            <span class="navigation" id="tecnico">Técnico</span>
+            <div class="tecnico-modal">
+                <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+                <p class="materias" onclick="IoT()">Internet das Coisas</p>
+            </div>
+                </div>
+            <span class="navigation" onclick="extras()">Extras</span>
+        </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="title-humanas-container">
+            <p class="title-humanas">Atividades de Humanas</p>
+        </div>
+        <div class="trimestres-container">
+            <p class="trimestre-title" onclick="primeiroTrimestreHumanas()">1º Trimestre</p>
+        <p class="trimestre-title">2º Trimestre</p>
+        <p class="trimestre-title">3º Trimestre</p>
+    </div>
+    <div id="modal-primeiro-humanas">
+        <div class="modal-primeiro-trimestre">
+            <div class="oms">
+                <div class="texts">
+            <p class="atividade-humanas">Organização Mundial da Saúde</p>
+            <p class="oms-text">Para aprender mais sobre Geopolítica e Relações Internacionais, nós recebemos a missão de escolher um organismo internacional e realizar uma pesquisa sobre ele. Eu e meus colegas escolhemos a OMS - Organização Mundial da Saúde e montamos uma apresentação abordando temas como suas características, funções, quais os países-membros e como funciona e também trouxemos uma decisão importante tomada por ela. Foi uma pesquisa muito interessante de realizar e foi muito legal descobrir mais sobre a OMS. Para acessar a apresentação completa, basta clicar na imagem ao lado!<br>Competências e habilidades: C2 - H8, H10 e H12.</p>
+               </div>
+               <div class="oms-img-container">
+            <a href="https://www.canva.com/design/DAGg9I4_SSg/Rjxc9nX1CCdr-SQVugKBVw/edit?utm_content=DAGg9I4_SSg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="oms-img" src="./imagens-atividades/oms-humanas-print.png" alt="OMS"></a>
+        </div>
+        </div>
+        <div class="franca-imperialista">
+            <div class="texts">
+        <p class="atividade-humanas">França Imperialista</p>
+        <p class="franca-imperialista-text">Dentro dos estudos do imperialismo no século XIX e da corrida imperialista, cada grupo precisou escolher um país e pesquisar seu papel nesse momento da história. Meu grupo escolheu a França e montamos uma apresentação contendo todas as informações solicitadas, incluindo dados, imagens, mapas e as fontes que utilizamos para encontrar esse material. Para acessar a apresentação, basta clicar na imagem ao lado!<br>Competências e habilidades: não encontradas.</p>
+           </div>
+           <div class="franca-imperialista-img-container">
+        <a href="https://www.canva.com/design/DAGkPCnT7YI/_nmdDzu_JgFlyU2rtE3MYg/edit?utm_content=DAGkPCnT7YI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="franca-imperialista-img" src="./imagens-atividades/franca-imperialista-print.png" alt="França Imperialista"></a>
+           </div>
+        </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Sara Rotenski</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+    <div class="header-navigation">
+        <div class="options">
+            <span class="navigation" onclick="home()">Home</span>
+            <div class="ensino-medio-container">
+        <span class="navigation" id="ensino-medio">Ensino Médio</span>
+        <div class="ensino-medio-modal">
+            <p class="materias" onclick="matematica()">Matemática</p>
+            <p class="materias" onclick="humanas()">Humanas</p>
+            <p class="materias" onclick="linguagens()">Linguagens</p>
+            <p class="materias" onclick="natureza()">Natureza</p>
+        </div>
+            </div>
+            <div class="tecnico-container">
+        <span class="navigation" id="tecnico">Técnico</span>
+        <div class="tecnico-modal">
+            <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
+            <p class="materias" onclick="IoT()">Internet das Coisas</p>
+        </div>
+            </div>
+        <span class="navigation" onclick="extras()">Extras</span>
+    </div>
+    </div>
+</header>
+
+    <main>
+    <div class="main-container">
+        <div class="title">
+        <p class="text-portfolio">Portfólio de</p>
+        <p class="name">Sara Rotenski</p>
+        <button class="about-me-button" onclick="scrollSobreMim()">Sobre mim</button>
+    </div> 
+    <img class="foto-sara" src="./images/img-eu.png" alt="foto-sara">
+    </div>
+
+    <div class="about-me-container" id = "about-me-container">
+        <p class="about-me-title">Sobre mim</p>
+        <p class="about-me-text">Olá, seja bem-vindo(a)! Meu nome é Sara Rotenski Pereira, tenho 17 anos e sou natural de Florianópolis, capital de Santa Catarina. Durante toda a minha vida, fui muito curiosa e interessada em aprender coisas novas, sendo uma boa estudante e tirando boas notas. Estou constantemente estudando e procurando assuntos que ainda não domino para obter mais conhecimento. Gosto muito de praticar exercícios físicos e de ler livros, são meus dois hobbies favoritos. Alguns dos meus momentos mais felizes foram viajando, algo que adoro fazer e um dos meus maiores objetivos de vida é viajar o mundo, conhecer outras culturas e ter novas experiências.<br><br>Estou finalizando o curso técnico em Desenvolvimento de Sistemas integrado ao terceiro ano do Ensino Médio, onde aprendi muito sobre Front-End e as principais ferramentas relacionadas a ele, como HTML5, CSS3 e JavaScript. Também aprendi muito sobre prototipagem de sistemas com o Figma e boas noções de design UX/UI, além de requisitos funcionais e não funcionais, regras de negócio, casos de uso e metodologias ágeis. Durante os próximos meses, aprenderei ReactJS e entrarei no universo do Back-End e Banco da Dados, utilizando as linguagens Java, Node.JS e SQL e da programação de aplicativos com React Native. Estou muito animada e ansiosa para aprender tantas coisas novas.<br><br>Durante todo o meu Ensino Médio, pensei em seguir carreira na área da saúde, cursando Medicina na UFSC ou Fisioterapia na UDESC, mas nos últimos tempos a área da tecnologia tem ganhado muito minha atenção. Estou pensando em cursar Ciência da Computação na UFSC e construir uma carreira como desenvolvedora de software.</p>
+    </div>
+
+    <div class="curriculum-container">
+        <p class="curriculum-title">Curriculum Vitae</p>
+        <img class="curriculum-img" src="./images/curriculum-vitae.jpeg" alt="curriculum-vitae">
+    </div>
+
+    <div class="outros-portfolios-container">
+        <p class="outros-portfolios-title">Portfólios anteriores</p>
+        <p class="portfolio-2024-title">2024</p>
+        <a class="portfolio-2024-link" href="https://sites.google.com/estudante.sesisenai.org.br/portfoliosararotenski?usp=sharing">Portfólio 2º Ano</a>
+        <p class="portfolio-2023-title">2023</p>
+        <a class="portfolio-2023-link" href="https://www.canva.com/design/DAFwxCWUY_A/AhqJHlRzeA7PCaJzYpeuGQ/edit?utm_content=DAFwxCWUY_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Portfólio 1º Ano</a>
+    </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
