@@ -43,18 +43,30 @@ function scrollSobreMim() {
 
 //Criando o modal do primeiro trimestre de matemática
 const modalPrimeiroTriMat = document.getElementById("modal-primeiro-mat");
+const modalSegundoTriMat = document.getElementById("modal-segundo-mat");
 
 function primeiroTrimestreMatematica() {
     modalPrimeiroTriMat.style.display = "flex";
 }
 
-function fecharPrimeiroTriMat() {
+function segundoTrimestreMatematica() {
+    modalSegundoTriMat.style.display = "flex";
+}
+
+function fecharMat() {
     modalPrimeiroTriMat.style.display = "none";
+    modalSegundoTriMat.style.display = "none";
 }
 
 window.addEventListener("click", function(event) {
     if (event.target === modalPrimeiroTriMat) {
-        fecharPrimeiroTriMat();
+        fecharMat();
+    }
+});
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriMat) {
+        fecharMat();
     }
 });
 

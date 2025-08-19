@@ -240,3 +240,104 @@ body::-webkit-scrollbar-thumb {
 .criando-a-banca-img:hover {
     transform: scale(1.05);
 }
+
+/* fundo do modal das atividades */
+
+#modal-segundo-mat {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* conteúdo do modal do segundo trimestre*/
+
+.modal-segundo-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.atividade-matematica {
+    font-size: 15px;
+    text-align: center;
+}
+
+.estatistica {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.estatistica-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+}
+
+.estatistica-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.estatistica-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.estatistica-img:hover {
+    transform: scale(1.05);
+}
+
+.nota-passe {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nota-passe-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.nota-passe-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.nota-passe-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.nota-passe-img:hover {
+    transform: scale(1.05);
+}
