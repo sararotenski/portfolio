@@ -341,3 +341,29 @@ body::-webkit-scrollbar-thumb {
 .nota-passe-img:hover {
     transform: scale(1.05);
 }
+
+#modal-passe-mat-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000071;
+}
+
+.modal-passe-mat-conteudo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.nota-passe-img-maior {
+    width: 600px;
+    border-radius: 10px;
+}

@@ -70,6 +70,22 @@ window.addEventListener("click", function(event) {
     }
 });
 
+const modalPasseMat = document.getElementById("modal-passe-mat-background");
+
+function abrirModalMatPasse() {
+    modalPasseMat.style.display = "grid";
+}
+
+function fecharModalMatPasse() {
+    modalPasseMat.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalPasseMat) {
+        fecharModalMatPasse();
+    }
+});
+
 //Criando o modal do primeiro trimestre de humanas
 const modalPrimeiroTriHumanas = document.getElementById("modal-primeiro-humanas");
 
@@ -84,6 +100,21 @@ function fecharPrimeiroTriHumanas() {
 window.addEventListener("click", function(event) {
     if (event.target === modalPrimeiroTriHumanas) {
         fecharPrimeiroTriHumanas();
+    }
+});
+
+const modalSegundoTriHumanas = document.getElementById("modal-segundo-humanas");
+function segundoTrimestreHumanas() {
+    modalSegundoTriHumanas.style.display = "flex";
+}
+
+function fecharSegundoTriHumanas() {
+    modalSegundoTriHumanas.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriHumanas) {
+        fecharSegundoTriHumanas();
     }
 });
 
