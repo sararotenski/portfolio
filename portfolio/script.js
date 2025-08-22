@@ -104,6 +104,7 @@ window.addEventListener("click", function(event) {
 });
 
 const modalSegundoTriHumanas = document.getElementById("modal-segundo-humanas");
+
 function segundoTrimestreHumanas() {
     modalSegundoTriHumanas.style.display = "flex";
 }
@@ -200,6 +201,22 @@ function fecharPrimeiroTriNatureza() {
 window.addEventListener("click", function(event) {
     if (event.target === modalPrimeiroTriNatureza) {
         fecharPrimeiroTriNatureza();
+    }
+});
+
+const modalSegundoTriNatureza = document.getElementById('modal-segundo-natureza');
+
+function segundoTrimestreNatureza() {
+    modalSegundoTriNatureza.style.display = "flex";
+}
+
+function fecharSegundoTriNatureza() {
+    modalSegundoTriNatureza.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriNatureza) {
+        fecharSegundoTriNatureza();
     }
 });
 
