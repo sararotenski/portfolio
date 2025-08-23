@@ -237,6 +237,24 @@ window.addEventListener("click", function(event) {
     }
 });
 
+//Criando o modal do mapa mental de sistema imunológico e vacinas
+
+const modalMapaImunologico = document.getElementById("modal-imunologico-background");
+
+function abrirModalImunologico() {
+    modalMapaImunologico.style.display = "flex";
+}
+
+function fecharModalImunologico() {
+    modalMapaImunologico.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalMapaImunologico) {
+        fecharModalImunologico();
+    }
+});
+
 //Criando o modal do certificado da imersão front-end da alura
 const modalCertificadoAlura = document.getElementById("modal-certificado-alura");
 
