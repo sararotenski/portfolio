@@ -25,8 +25,8 @@ function modelagemDeSistemas() {
     window.location.href="modelagem-de-sistemas.html";
 }
 
-function IoT() {
-    window.location.href="internet-das-coisas.html";
+function bancoDeDados() {
+    window.location.href="banco-de-dados.html";
 }
 
 //carrega a página extras
@@ -136,6 +136,22 @@ window.addEventListener("click", function(event) {
     }
 });
 
+const modalSegundoTriModelagem = document.getElementById("modal-segundo-modelagem");
+
+function segundoTrimestreModelagem() {
+    modalSegundoTriModelagem.style.display = "flex";
+}
+
+function fecharSegundoTriModelagem() {
+    modalSegundoTriModelagem.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriModelagem) {
+        fecharSegundoTriModelagem();
+    }
+});
+
 //Criando o modal do primeiro trimestre de linguagens
 const modalPrimeiroTriLinguagens = document.getElementById("modal-primeiro-linguagens");
 
@@ -150,6 +166,39 @@ function fecharPrimeiroTriLinguagens() {
 window.addEventListener("click", function(event) {
     if (event.target === modalPrimeiroTriLinguagens) {
         fecharPrimeiroTriLinguagens();
+    }
+});
+
+//Criando o modal do segundo trimestre de linguagens
+const modalSegundoTriLinguagens = document.getElementById('modal-segundo-linguagens');
+
+function segundoTrimestreLinguagens() {
+    modalSegundoTriLinguagens.style.display = "flex";
+}
+
+function fecharSegundoTriLinguagens() {
+    modalSegundoTriLinguagens.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriLinguagens) {
+        fecharSegundoTriLinguagens();
+    }
+});
+
+const modalNotaRedacaoDois = document.getElementById("modal-redacao2-background");
+
+function abrirModalNotaRedacaoDois() {
+    modalNotaRedacaoDois.style.display = "flex";
+}
+
+function fecharModalNotaRedacaoDois() {
+    modalNotaRedacaoDois.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalNotaRedacaoDois) {
+        fecharModalNotaRedacaoDois();
     }
 });
 
@@ -234,6 +283,23 @@ function fecharModalEletrostatica() {
 window.addEventListener("click", function(event) {
     if (event.target === modalMapaEletrostatica) {
         fecharModalEletrostatica();
+    }
+});
+
+//Criando o modal de banco de dados
+const modalSegundoTriBanco = document.getElementById('modal-segundo-banco');
+
+function segundoTrimestreBanco() {
+    modalSegundoTriBanco.style.display = "flex";
+}
+
+function fecharSegundoTriBanco() {
+    modalSegundoTriBanco.style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+    if (event.target === modalSegundoTriBanco) {
+        fecharSegundoTriBanco();
     }
 });
 

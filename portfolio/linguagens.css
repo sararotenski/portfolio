@@ -445,3 +445,161 @@ body::-webkit-scrollbar-thumb {
 .informa-enem-img:hover {
     transform: scale(1.05);
 }
+
+/* fundo do modal das atividades */
+#modal-segundo-linguagens {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* conteúdo do modal do segundo trimestre */
+.modal-segundo-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 350px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.nota-redacao2 {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nota-redacao2-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.nota-redacao2-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.nota-redacao2-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nota-redacao2-img:hover {
+    transform: scale(1.05);
+}
+
+#modal-redacao2-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000071;
+}
+
+.modal-redacao2-conteudo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.nota-redacao2-img-maior {
+    width: 900px;
+    border-radius: 10px;
+}
+
+.revista-literaria2 {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.revista-literaria2-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.revista-literaria2-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.revista-literaria2-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.revista-literaria2-img:hover {
+    transform: scale(1.05);
+}
+
+.arte-ingles {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.arte-ingles-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.arte-ingles-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.arte-ingles-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.arte-ingles-img:hover {
+    transform: scale(1.05);
+}

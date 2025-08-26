@@ -240,3 +240,92 @@ body::-webkit-scrollbar-thumb {
 .apresentacao-SA-img:hover {
     transform: scale(1.05);
 }
+
+/* criando o modal com as atividades do segundo trimestre*/
+#modal-segundo-modelagem {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* conteúdo do modal do segundo trimestre */
+.modal-segundo-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ui-ux {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.ui-ux-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.ui-ux-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.ui-ux-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.ui-ux-img:hover {
+    transform: scale(1.05);
+}
+
+.figma-SA {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.figma-SA-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.figma-SA-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.figma-SA-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.figma-SA-img:hover {
+    transform: scale(1.05);
+}
