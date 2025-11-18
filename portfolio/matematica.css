@@ -367,3 +367,64 @@ body::-webkit-scrollbar-thumb {
     width: 600px;
     border-radius: 10px;
 }
+
+/* fundo do modal das atividades */
+#modal-terceiro-mat {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* conteúdo do modal do terceiro trimestre */
+.modal-terceiro-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bolo-caneca {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bolo-caneca-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+}
+
+.bolo-caneca-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.bolo-caneca-img {
+    width: 350px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.bolo-caneca-img:hover {
+    transform: scale(1.05);
+}

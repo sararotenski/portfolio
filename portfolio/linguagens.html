@@ -25,6 +25,7 @@
             <div class="tecnico-modal">
                 <p class="materias" onclick="modelagemDeSistemas()">Modelagem de Sistemas</p>
                 <p class="materias" onclick="bancoDeDados()">Banco de Dados</p>
+                <p class="materias" onclick="devSistemas()">Desenvolvimento de Sistemas</p>
             </div>
                 </div>
             <span class="navigation" onclick="extras()">Extras</span>
@@ -33,14 +34,16 @@
     </header>
 
     <main>
+
         <div class="title-linguagens-container">
             <p class="title-linguagens">Atividades de Linguagens</p>
         </div>
         <div class="trimestres-container">
             <p class="trimestre-title" onclick="primeiroTrimestreLinguagens()">1º Trimestre</p>
         <p class="trimestre-title" onclick="segundoTrimestreLinguagens()">2º Trimestre</p>
-        <p class="trimestre-title">3º Trimestre</p>
+        <p class="trimestre-title" onclick="terceiroTrimestreLinguagens()">3º Trimestre</p>
     </div>
+
     <div id="modal-primeiro-linguagens">
         <div class="modal-primeiro-trimestre">
             <div class="nota-redacao">
@@ -147,7 +150,44 @@ H25 - Interpretar textos em Língua Estrangeira Moderna (Inglês).</p>
     </div>
     </div>
     </div>
+
+    <div id="modal-terceiro-linguagens">
+        <div class="modal-terceiro-trimestre">
+            <div class="nota-redacao3">
+                <div class="texts">
+            <p class="atividade-linguagens">Melhor Nota de Redação do Ano</p>
+        <p class="nota-redacao3-text">Para desenvolver e melhorar as habilidades de escrita de redação, escrevi ao longo de 2025 algumas redações dissertativas-argumentativas, no estilo ENEM. Elas foram corrigidas pelas plataformas Redação Online e Red1000 e a maior nota que eu obtive foi 880, sobre o tema "Proibição do uso de celulares nas escolas: medida necessária para o desenvolvimento infantil?". Gostei muito de escrevê-las, com certeza me ajudou muito a evoluir na escrita e essas habilidades contribuíram no desenvolvimento da minha redação do ENEM. Para visualizar o print em tamanho aumentado, basta clicar na imagem ao lado!<br><br>Habilidades: não especificadas.</p>
+               </div>
+               <div class="nota-redacao3-img-container">
+            <img onclick = "abrirModalNotaRedacaoTres()" class="nota-redacao3-img" src="./imagens-atividades/nota-redacao3-print.jpg" alt="nota das redações">
+        </div>
+        <div id="modal-redacao3-background">
+            <div class="modal-redacao3-conteudo">
+            <img src="./imagens-atividades/maior-nota-redacao.jpg" alt="redação com a maior nota" class="nota-redacao3-img-maior">
+        </div>
+        </div>
+        </div>
+        <div class="reels-literario">
+            <div class="texts">
+        <p class="atividade-linguagens">Reels Literário de Primeiro de Abril</p>
+        <p class="reels-literario-text">Para estudar e compreender melhor o Livro Primeiro de Abril: narrativas de cadeia, do Autor Salim Miguel e leitura obrigatória no vestibular da UFSC 2026, recebemos a missão de gravar um vídeo curto, estilo reels e TikTok, mostrando um lugar de Florianópolis que é citado no livro e relacionando o espaço com a sua narrativa. Essa atividade é parte da Revista Literária, realizada ao longo do ano todo e que foi de grande valia no estudo das obras. Para visualizar a vídeo, basta clicar na imagem ao lado!<br><br>Habilidades: H4 - Reconhecer a pluralidade de manifestações artísticas e culturais como forma de integração entre pessoas e entre diferentes grupos sociais e étnicos. H16 - Relacionar práticas corporais e artísticas à própria vida, ao convívio social e à formação de identidades.</p>
+           </div>
+           <div class="reels-literario-img-container">
+        <a href="https://www.canva.com/design/DAGkm9CDt0A/o55WEkI-PbFNL_UUyLEvwA/edit?utm_content=DAGkm9CDt0A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img class="reels-literario-img" src="./imagens-atividades/capa-revista-print.png" alt="revista literária"></a>
+           </div>
+        </div>
+        <div class="carta-intencao">
+            <div class="texts">
+        <p class="atividade-linguagens">Carta de Intenção</p>
+    <p class="carta-intencao-text">Com o objetivo de estudar cartas, um gênero textual muito frequente no vestibular da UFSC, fui instruída a escrever uma carta de intenção para uma universidade que pretendo ingressar, demonstrando meu interesse. Decidi escrever para a UDESC, anunciando meu interesse pela graduação em Fisioterapia e explicitando como pretendo contribuir para a universidade, além de sua importância no meu futuro profissional. Gostei muito dessa atividade. Para ler a carta completa, clique na imagem ao lado!<br><br>Habilidade:  H12 - Empregar recursos linguísticos para identificar e apresentar pontos de vista.</p>
+           </div>
+           <div class="carta-intencao-img-container">
+      <a href="https://docs.google.com/document/d/1WUDsj-xVvsw7kfAFFNvErBy5qPhmZWXfaDmA9Jicb-E/edit?usp=sharing"><img class="carta-intencao-img" src="./imagens-atividades/carta-intencao.jpg" alt="carta de intenção"></a>
     </div>
+    </div>
+    </div>
+    </div>
+
     </main>
 
     <script src="script.js"></script>

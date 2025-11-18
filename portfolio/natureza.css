@@ -494,3 +494,66 @@ body::-webkit-scrollbar-thumb {
 .aurora-img:hover {
     transform: scale(1.05);
 }
+
+/* fundo do modal das atividades */
+#modal-terceiro-natureza {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* conteúdo do modal do terceiro trimestre */
+.modal-terceiro-trimestre {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 350px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.ar-condicionado {
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 25px solid transparent;
+    border-radius: 40px;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.ar-condicionado-text {
+    width: 300px;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.texts {
+    padding-right: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+.ar-condicionado-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.ar-condicionado-img {
+    width: 300px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.ar-condicionado-img:hover {
+    transform: scale(1.05);
+}
